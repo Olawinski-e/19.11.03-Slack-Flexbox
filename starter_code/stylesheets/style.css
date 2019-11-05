@@ -1,7 +1,12 @@
+@charset "UTF-8";
 body {
   width: 100%;
   margin: 0;
-  /* MOBILE */ }
+  /* MOBILE */
+  /* NAV */
+  /* HEADER */
+  /* MAIN */
+  /* FOOTER */ }
 
 body h1,
 body h2,
@@ -12,56 +17,517 @@ body p {
   margin: 0;
   padding: 0; }
 
-@media only screen and (max-width: 768px) {
+body nav {
+  width: 84%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 8%;
+  border-bottom: 1px solid #c1c1c1a8; }
+
+body nav img {
+  width: 100px; }
+
+body nav ul {
+  display: none; }
+
+body nav .menu-burger {
+  color: #c1c1c1a8;
+  width: 30px; }
+
+body header {
+  width: 84%;
+  padding: 40px 8% 6px;
+  border-bottom: solid 1px #c1c1c1a8; }
+
+body header h1 {
+  color: #2c303f;
+  font-size: 38px;
+  line-height: 38px;
+  margin-bottom: 30px; }
+
+body header p {
+  font-family: "Roboto";
+  color: #5b5e6d;
+  line-height: 24px; }
+
+body header input {
+  border: solid 1px #c1c1c1a8;
+  margin: 30px 0 20px;
+  width: 100%;
+  height: 45px;
+  border-radius: 6px; }
+
+body header ::placeholder {
+  padding-left: 20px; }
+
+body header button {
+  background-color: #192592;
+  width: 100%;
+  height: 50px;
+  border-radius: 6px;
+  color: #fff; }
+
+body header .already {
+  margin-top: 16px;
+  display: flex;
+  justify-content: center; }
+
+body header .already a {
+  margin-left: 10px; }
+
+body header img {
+  width: 100%;
+  margin-top: 40px; }
+
+body main {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 50px;
+  border-bottom: solid 1px #c1c1c1a8; }
+
+body main .div1 {
+  width: 84%;
+  padding: 40px 8% 6px;
+  background-color: #ebebeba1;
+  text-align: center;
+  height: 100%; }
+
+body main .div1 h2 {
+  color: #2c303f;
+  margin-bottom: 20px; }
+
+body main .div1 p {
+  font-family: "Roboto";
+  color: #5b5e6d;
+  margin-bottom: 40px; }
+
+body main .div1 button {
+  background-color: #fff;
+  width: 100%;
+  height: 50px;
+  border-radius: 6px;
+  border: solid 1px #192592;
+  color: #192592;
+  font-weight: bold; }
+
+body main .div1 .d-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px 0; }
+
+body main .div1 .d-flex img {
+  width: 140px;
+  margin: 20px 0; }
+
+body main .div1 .d-flex .bigger {
+  width: 200px; }
+
+body main .div1 .d-flex hr {
+  border-top: solid 1px #c1c1c1a8;
+  width: 80%; }
+
+body main .div2 {
+  width: 84%;
+  padding: 40px 8% 6px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+body main .div2 div {
+  display: flex;
+  flex-direction: column;
+  text-align: center; }
+
+body main .div2 div p {
+  font-size: 20px;
+  color: #2c303f;
+  font-weight: bold;
+  margin-bottom: 8px; }
+
+body main .div2 div .text-2 {
+  color: #5b5e6d;
+  font-size: 16px;
+  font-family: "Roboto";
+  font-weight: 400; }
+
+body main .div2 .div5 {
+  width: 100%; }
+
+body main .div2 .div5 input {
+  border: solid 1px #c1c1c1a8;
+  margin: 0 0 20px;
+  width: 100%;
+  height: 45px;
+  border-radius: 6px; }
+
+body main .div2 .div5 ::placeholder {
+  padding-left: 20px; }
+
+body main .div2 .div5 button {
+  background-color: #192592;
+  width: 100%;
+  height: 50px;
+  border-radius: 6px;
+  color: #fff; }
+
+body footer div img {
+  width: 120px; }
+
+body footer div .essai {
+  padding: 0 8% 10px;
+  display: flex;
+  justify-content: left;
+  width: 84%;
+  font-family: "Roboto"; }
+
+body footer div .essai ul {
+  margin: 0;
+  padding: 0;
+  width: 50%;
+  color: #2c303f; }
+
+body footer div .essai ul li {
+  text-decoration: none;
+  list-style: none;
+  color: #5b5e6d;
+  font-size: 17px;
+  margin: 30px 0; }
+
+body footer div .essai ul :first-child {
+  margin-top: 10px;
+  font-size: 20px; }
+
+body footer .div4 {
+  background-color: #ebebeba1;
+  font-family: "Roboto";
+  color: #5b5e6d; }
+
+body footer .div4 ul {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 20px 0;
+  list-style: none; }
+
+body footer .div4 ul li {
+  padding: 0 10px; }
+
+body footer .div4 div .row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px; }
+
+body footer .div4 div .row img {
+  width: 30px; }
+
+body footer .div4 div .row i {
+  padding-left: 10px; }
+
+body footer .div4 div .d-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-bottom: 20px; }
+
+body footer .div4 div .d-flex i {
+  padding: 0 20px; }
+
+@media (min-width: 767px) and (max-width: 961px) {
   body {
-    /* NAV */
-    /* HEADER */ }
-  body nav {
-    width: 84%;
-    height: 50px;
-    display: flex;
-    justify-content: space-between;
-    padding: 10px 8%;
-    border-bottom: 1px solid #c3c4c6a8; }
-  body nav img {
-    width: 100px; }
-  body nav ul {
-    display: none; }
-  body nav .menu-burger {
-    color: #c3c4c6a8;
-    width: 36px; }
-  body header {
-    width: 84%;
-    padding: 40px 8%; }
+    /* HEADER */
+    /* MAIN */
+    /* FOOTER */ }
   body header h1 {
-    color: #2c303f;
-    font-size: 38px;
-    line-height: 38px;
-    margin-bottom: 30px; }
+    font-size: 58px; }
   body header p {
-    font-family: "Roboto";
-    color: #5b5e6d;
-    line-height: 24px; }
+    font-size: 19px; }
   body header input {
-    border: solid 1px #c3c4c6a8;
-    margin: 30px 0 20px;
-    width: 100%;
-    height: 40px;
-    border-radius: 6px; }
+    width: 50%; }
   body header ::placeholder {
-    padding-left: 20px; }
+    font-size: 16px; }
   body header button {
-    background-color: #192592;
-    width: 100%;
-    height: 40px;
-    border-radius: 6px;
-    color: #fff; }
-  body header .already {
-    margin-top: 16px;
-    display: flex;
-    justify-content: center; }
-  body header .already a {
+    width: 20%;
     margin-left: 10px; }
+  body header p {
+    margin-top: 0 !important;
+    display: block !important; }
   body header img {
-    width: 100%;
-    margin-top: 40px; } }
+    width: 60%;
+    margin: auto;
+    display: flex;
+    margin-top: 30px; }
+  body main .div1 h2 {
+    font-size: 36px; }
+  body main .div1 p {
+    font-weight: normal;
+    letter-spacing: 1px;
+    font-size: 14px; }
+  body main .div1 button {
+    width: 30%; }
+  body main .div1 .d-flex {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    vertical-align: bottom; }
+  body main .div1 .d-flex img {
+    float: left;
+    width: 170px;
+    height: 40px;
+    padding: 10px 60px; }
+  body main .div1 .d-flex hr {
+    display: none; }
+  body main .div2 {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between; }
+  body main .div2 div {
+    text-align: left; }
+  body main .div2 .div5 {
+    display: flex;
+    flex-direction: row;
+    width: 40%; }
+  body main .div2 .div5 input {
+    margin: 0; }
+  body main .div2 .div5 button {
+    margin-left: 10px; }
+  body footer div {
+    display: flex; }
+  body footer div img {
+    width: auto;
+    height: 100px;
+    margin: 0 30px; }
+  body footer div .essai {
+    padding: 15px 0;
+    width: 38%; }
+  body footer div .essai ul {
+    margin-top: 0; }
+  body footer div .essai ul li {
+    font-size: 15px;
+    margin: 20px 0; }
+  body footer div .essai ul :first-child {
+    margin-top: 10px;
+    font-size: 16px; }
+  body footer .div4 {
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center; }
+  body footer .div4 .row {
+    margin-bottom: 0 !important; }
+  body footer .div4 .row img {
+    width: normal;
+    height: 34px; }
+  body footer .div4 .d-flex {
+    padding-bottom: 0 !important;
+    margin-left: 20px;
+    align-items: center; } }
+
+@media (min-width: 960px) and (max-width: 1024px) {
+  body {
+    /* HEADER */
+    /* MAIN */
+    /* FOOTER */ }
+  body header h1 {
+    font-size: 58px; }
+  body header p {
+    font-size: 19px; }
+  body header input {
+    width: 50%; }
+  body header ::placeholder {
+    font-size: 16px; }
+  body header button {
+    width: 20%;
+    margin-left: 10px; }
+  body header p {
+    margin-top: 0 !important;
+    display: block !important; }
+  body header img {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    margin-top: 30px; }
+  body main .div1 h2 {
+    font-size: 36px; }
+  body main .div1 p {
+    font-weight: normal;
+    letter-spacing: 1px;
+    font-size: 14px; }
+  body main .div1 button {
+    width: 30%; }
+  body main .div1 .d-flex {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    vertical-align: bottom; }
+  body main .div1 .d-flex img {
+    float: left;
+    width: 170px;
+    height: 40px;
+    padding: 10px 35px; }
+  body main .div1 .d-flex hr {
+    display: none; }
+  body main .div2 {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between; }
+  body main .div2 div {
+    text-align: left; }
+  body main .div2 .div5 {
+    display: flex;
+    flex-direction: row;
+    width: 40%; }
+  body main .div2 .div5 input {
+    margin: 0; }
+  body main .div2 .div5 button {
+    margin-left: 10px; }
+  body footer div {
+    display: flex; }
+  body footer div img {
+    width: auto;
+    height: 100px;
+    margin: 0 30px; }
+  body footer div .essai {
+    padding: 15px 0;
+    width: 38%; }
+  body footer div .essai ul {
+    margin-top: 0; }
+  body footer div .essai ul li {
+    font-size: 15px;
+    margin: 20px 0; }
+  body footer div .essai ul :first-child {
+    margin-top: 10px;
+    font-size: 16px; }
+  body footer .div4 {
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center; }
+  body footer .div4 .row {
+    margin-bottom: 0 !important; }
+  body footer .div4 .row img {
+    width: normal;
+    height: 34px; }
+  body footer .div4 .d-flex {
+    padding-bottom: 0 !important;
+    margin-left: 20px;
+    align-items: center; } }
+
+@media (min-width: 1023px) {
+  body {
+    /* NAV*/
+    /* HEADER */
+    /* MAIN */
+    /* FOOTER */ }
+  body nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    width: 54%;
+    font-family: "Roboto";
+    align-items: center; }
+  body nav ul li {
+    justify-content: center;
+    display: flex;
+    padding: 0 20px; }
+  body nav ul li:hover,
+  body nav ul li:active {
+    background-color: #192592;
+    height: 40px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px; }
+  body nav .menu-burger {
+    display: none; }
+  body header {
+    display: flex;
+    padding-bottom: 30px; }
+  body header .image-début {
+    order: 1;
+    width: 40%; }
+  body header .then {
+    order: 2;
+    margin-left: 30px; }
+  body header .then h1 {
+    font-size: 58px;
+    line-height: 58px; }
+  body header .then p {
+    font-size: 19px; }
+  body header .then input {
+    display: none; }
+  body header .then button {
+    width: 20%;
+    margin-top: 20px;
+    width: 30%; }
+  body header .then p {
+    margin-top: 20px !important;
+    display: block !important; }
+  body header .then .already {
+    font-size: 14px; }
+  body main .div1 h2 {
+    font-size: 36px; }
+  body main .div1 p {
+    font-weight: normal;
+    letter-spacing: 1px;
+    font-size: 14px; }
+  body main .div1 button {
+    width: 30%; }
+  body main .div1 .d-flex {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    vertical-align: bottom; }
+  body main .div1 .d-flex img {
+    float: left;
+    width: 170px;
+    height: 40px;
+    padding: 10px 35px; }
+  body main .div1 .d-flex hr {
+    display: none; }
+  body main .div2 {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between; }
+  body main .div2 div {
+    text-align: left; }
+  body main .div2 .div5 {
+    display: flex;
+    flex-direction: row;
+    width: 40%; }
+  body main .div2 .div5 input {
+    margin: 0; }
+  body main .div2 .div5 button {
+    margin-left: 10px; }
+  body footer div {
+    display: flex; }
+  body footer div img {
+    width: auto;
+    height: 100px;
+    margin: 0 30px; }
+  body footer div .essai {
+    padding: 15px 0;
+    width: 38%; }
+  body footer div .essai ul {
+    margin-top: 0; }
+  body footer div .essai ul li {
+    font-size: 15px;
+    margin: 20px 0; }
+  body footer div .essai ul :first-child {
+    margin-top: 10px;
+    font-size: 16px; }
+  body footer .div4 {
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center; }
+  body footer .div4 .row {
+    margin-bottom: 0 !important; }
+  body footer .div4 .row img {
+    width: normal;
+    height: 34px; }
+  body footer .div4 .d-flex {
+    padding-bottom: 0 !important;
+    margin-left: 20px;
+    align-items: center; } }
